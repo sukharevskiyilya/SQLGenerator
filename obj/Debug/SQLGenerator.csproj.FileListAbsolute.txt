@@ -4,3 +4,9 @@ E:\3Course\Databases\SQLGenerator\SQLGenerator\bin\Debug\SQLGenerator.pdb
 E:\3Course\Databases\SQLGenerator\SQLGenerator\obj\Debug\SQLGenerator.csprojResolveAssemblyReference.cache
 E:\3Course\Databases\SQLGenerator\SQLGenerator\obj\Debug\SQLGenerator.exe
 E:\3Course\Databases\SQLGenerator\SQLGenerator\obj\Debug\SQLGenerator.pdb
+C:\Users\ILYA\Desktop\SQLGenerator\bin\Debug\SQLGenerator.exe.config
+C:\Users\ILYA\Desktop\SQLGenerator\obj\Debug\SQLGenerator.exe
+C:\Users\ILYA\Desktop\SQLGenerator\obj\Debug\SQLGenerator.pdb
+C:\Users\ILYA\Desktop\SQLGenerator\bin\Debug\SQLGenerator.exe
+C:\Users\ILYA\Desktop\SQLGenerator\bin\Debug\SQLGenerator.pdb
+C:\Users\ILYA\Desktop\SQLGenerator\obj\Debug\SQLGenerator.csprojResolveAssemblyReference.cache

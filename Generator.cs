@@ -80,10 +80,26 @@ namespace SQLGenerator
             Random random = new Random();
             for (int i = 0; i < number; i++)
             {
-                string facultyName = String.Format("{0}{1}", (char)(65 + random.Next(25)), (char)(65 + random.Next(25)));
-                string building = (1 + random.Next(9)).ToString();
-                string fund = (100000 + random.Next(99999)).ToString();
+                string facultyName = String.Format("{0}{1}", (char)(65 + random.Next(26)), (char)(65 + random.Next(26)));
+                string building = (1 + random.Next(10)).ToString();
+                string fund = (100000 + random.Next(100000)).ToString();
                 string query = String.Format("INSERT INTO FACULTY VALUES({0},'{1}' ,null, '{2}', {3}.00);", i, facultyName, building, fund);
+                result.Add(query);
+            }
+            return result;
+        }
+        public static List<string> GenerateRoomRows(int number)
+        {
+            List<string> result = new List<string>();
+            Random random = new Random();
+            for (int i = 0; i < number; i++)
+            {
+                string RomPK = (1 + random.Next(4)).ToString();
+                string Num = (((1 + random.Next(3))*100) + random.Next(21)).ToString();
+                string Seats = ((3 + random.Next(12))*10).ToString();
+                string Floor = (1 + random.Next(3)).ToString();
+                string building = (1 + random.Next(10)).ToString();
+                string query = String.Format("INSERT INTO ROOM VALUES({0},'{1}' ,'{2}', '{3}', {4});", RomPK, Num, Seats, Floor, building);
                 result.Add(query);
             }
             return result;
