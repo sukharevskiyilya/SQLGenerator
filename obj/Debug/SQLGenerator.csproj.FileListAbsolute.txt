@@ -1,0 +1,6 @@
+E:\3Course\Databases\SQLGenerator\SQLGenerator\bin\Debug\SQLGenerator.exe.config
+E:\3Course\Databases\SQLGenerator\SQLGenerator\bin\Debug\SQLGenerator.exe
+E:\3Course\Databases\SQLGenerator\SQLGenerator\bin\Debug\SQLGenerator.pdb
+E:\3Course\Databases\SQLGenerator\SQLGenerator\obj\Debug\SQLGenerator.csprojResolveAssemblyReference.cache
+E:\3Course\Databases\SQLGenerator\SQLGenerator\obj\Debug\SQLGenerator.exe
+E:\3Course\Databases\SQLGenerator\SQLGenerator\obj\Debug\SQLGenerator.pdb
